@@ -1,0 +1,6 @@
+--title "IS::Boolean Utils"
+--readme README.md
+--protected
+--private
+--no-private
+lib/**/*.rb

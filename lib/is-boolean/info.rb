@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# @private
 module IS
   module Boolean; end
 end
