@@ -172,6 +172,11 @@ RSpec.describe Boolean do
     it "false responds to <=>" do
       expect(false).to respond_to(:<=>)
     end
+
+    it "true/false is a Boolean" do
+      expect(true.is_a?(Boolean)).to eq(true)
+      expect(false.is_a?(Boolean)).to eq(true)
+    end
   end
 
   describe "sorting" do
